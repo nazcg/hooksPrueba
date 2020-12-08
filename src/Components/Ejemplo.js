@@ -7,13 +7,7 @@ const Ejemplo = () => {
 
     const {register, errors, handleSubmit} = useForm();
     const [Entrada, setEntradas] = usesState([])
-    const onSubmit = (data, e) =>{
-        console.log(data)
-        setEntradas{[
-            ...Entrada,
-            data
-        ]}
-    }
+
     return (
         <Fragment>
             <h1>
